@@ -1,0 +1,11 @@
+[[plugins]]
+  package = "netlify-plugin-checklinks"
+
+  [plugins.inputs]
+    skipPatterns = [
+      "fonts.googleapis.com",
+      "fonts.gstatic.com",
+      "utt.impactcdn.com",
+      "airalo.pxf.io",
+      "images.unsplash.com"
+    ]
